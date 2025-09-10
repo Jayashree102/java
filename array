@@ -1,0 +1,15 @@
+import java.util.*;
+public class forloop{
+    public static void main(String[] args){
+        Scanner input=new Scanner(System.in);
+        int size=input.nextInt();
+        int VSB[]=new int[size];
+    for(int i=0;i<size;i++){
+        VSB[i]=input.nextInt();
+ }
+
+        for(int i=0;i<size;i++){
+        System.out.println(VSB[i]+" ");
+    }
+}
+}
